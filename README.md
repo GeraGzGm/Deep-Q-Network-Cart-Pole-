@@ -149,3 +149,15 @@ And now, we permorm a gradient descent step:
 ```
 
 # Results
+<p align="center">
+   <img width="400" height="300" src="https://user-images.githubusercontent.com/52584370/221727470-46346d06-5a12-4ebb-87d5-8f576971c2d4.png">
+</p>
+
+<p align="center">
+   <img width="400" height="300" src="https://user-images.githubusercontent.com/52584370/221727571-2055c11d-e19e-4871-86b9-006809d9ef69.gif">
+</p>
+
+
+
+
+
