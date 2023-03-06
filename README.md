@@ -15,9 +15,26 @@ The base idea, is to obtain the actual state of the environment, then with the `
 
 # Implementation
 
-<p align="center">
-   <img width="300" height="200" src="https://user-images.githubusercontent.com/52584370/221698390-a0c7a96f-a45b-49aa-98b3-c7dcd7589b8a.gif">
-</p>
+<table border="0" align = "center">
+ <tr>
+    <td><b style="font-size:30px">No-Trained</b></td>
+    <td><b style="font-size:30px">Trained</b></td>
+ </tr>
+ <tr>
+    <td>
+      <p align="center">
+         <img width="300" height="200" src="https://user-images.githubusercontent.com/52584370/221698390-a0c7a96f-a45b-49aa-98b3-c7dcd7589b8a.gif">
+      </p>
+    </td>
+    <td>
+       <p align="center">
+         <img width="300" height="200" src="https://user-images.githubusercontent.com/52584370/223244620-09f0d8ef-cafd-4569-8b1e-923cdc38c585.gif">
+      </p>
+    </td>
+ </tr>
+</table>
+
+
 First, we need to define our environment, in this case it is the Cart-pole simulation, and obtain the number of obserbations and the number of possible actions.
 
 ```python
@@ -150,13 +167,14 @@ And now, we permorm a gradient descent step:
 
 # Results
 <p align="center">
-   <img width="400" height="300" src="https://user-images.githubusercontent.com/52584370/221727470-46346d06-5a12-4ebb-87d5-8f576971c2d4.png">
+   <img width="800" height="300" src="https://user-images.githubusercontent.com/52584370/223244767-83bfb8b0-8494-4626-8ea1-a01577356e5f.png">
 </p>
 
 <p align="center">
-   <img width="400" height="300" src="https://user-images.githubusercontent.com/52584370/221727571-2055c11d-e19e-4871-86b9-006809d9ef69.gif">
+   <img width="400" height="300" src="https://user-images.githubusercontent.com/52584370/223244620-09f0d8ef-cafd-4569-8b1e-923cdc38c585.gif">
 </p>
 
+![2b916fd4-0cc1-4940-9425-e109ec4f358f](g)
 
 
 
